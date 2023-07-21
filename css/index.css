@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Marsek;
+  src: url("../fonts/Marsek-Demi.ttf");
+}
+
+.container {
+  max-width: 2160px;
+  padding: 0;
+}
+
+.row{
+  margin: auto;
+}
+
+.bg-red {
+  background-color: #d40b13;
+}
+
+.bg-blue {
+  background-color: #2b1b7b;
+}
+
+
+.bottom a {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  padding: 0 3rem;
+  margin: 0 2rem;
+}
+
+.carousel-inner img {
+  width: 100% !important;
+  height: 80vh !important;
+}
+
+.our-products h3{
+  font-family: 'Roboto';
+  color: #2b1b7b;
+  font-weight: bold;
+}
+
+.our-products p{
+  text-align: center;
+}
+
+.nav-tabs{
+  background-color: #2b1b7b;
+}
+
+.product-showcase h4{
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: white;
+
+}
+
+@media only screen and (max-width: 720px) {
+  .carousel-inner img {
+    width: 100% !important;
+    height: 40vh !important;
+  }
+
+  .bottom a{
+    padding: 1rem 0;
+  }
+}
