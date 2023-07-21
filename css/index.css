@@ -12,6 +12,10 @@
   margin: auto;
 }
 
+.navbar-toggler-icon {
+  border-color: white;
+}
+
 .bg-red {
   background-color: #d40b13;
 }
@@ -27,6 +31,10 @@
   font-weight: bold;
   padding: 0 3rem;
   margin: 0 2rem;
+}
+
+.carousel-inner{
+  padding: 0;
 }
 
 .carousel-inner img {
@@ -55,6 +63,16 @@
 
 }
 
+.tab-content img{
+  margin: 0 1.5rem;
+}
+
+.img-size{
+  width: 25rem;
+  height: 18rem;
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 720px) {
   .carousel-inner img {
     width: 100% !important;
@@ -63,5 +81,19 @@
 
   .bottom a{
     padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .tab-content img{
+    margin: 0 0 1rem 0;
+  }
+
+  .scroll{
+    overflow-x: auto !important;
+  }
+
+  .bottom a{
+    margin: 0.2rem 0 0 0;
   }
 }
