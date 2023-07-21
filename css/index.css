@@ -73,18 +73,13 @@
   object-fit: cover;
 }
 
-@media only screen and (max-width: 720px) {
+
+@media only screen and (max-width: 769px) {
   .carousel-inner img {
     width: 100% !important;
     height: 40vh !important;
   }
 
-  .bottom a{
-    padding: 1rem 0;
-  }
-}
-
-@media only screen and (max-width: 719px) {
   .tab-content img{
     margin: 0 0 1rem 0;
   }
