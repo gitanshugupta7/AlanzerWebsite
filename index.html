@@ -20,12 +20,12 @@
   <nav class="row sticky-top">
     <nav class="navbar navbar-light bg-red px-3 top">
       <a class="d-flex justify-content-start navbar-brand" href="#">
-        <img src="./images/GIPL.svg" width="100" height="60" alt="GIPL Company Logo" />
+        <img src="./images/GIPL.png" class="navbar-logo-GIPL" alt="GIPL Company Logo" />
       </a>
-      <img src="./images/makeinindia.png" width="110" height="50" alt="Make In India Logo" />
+      <img src="./images/makeinindia.png" class="navbar-logo-make" alt="Make In India Logo" />
     </nav>
 
-    <nav class="d-none navbar navbar-expand-lg navbar-dark bg-blue bottom">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-blue bottom">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
           aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,16 +34,16 @@
         <div class="collapse navbar-collapse p-1" id="navbarTogglerDemo01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">HOME</a>
+              <a class="nav-link" aria-current="page" href=" ">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PRODUCTS</a>
+              <a class="nav-link" href="#products">PRODUCTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT US</a>
+              <a class="nav-link" href="#aboutus">ABOUT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT US</a>
+              <a class="nav-link" href="#footer">CONTACT US</a>
             </li>
           </ul>
         </div>
@@ -78,29 +78,34 @@
   <div class="row our-products mt-4 mb-4">
     <h3 class="col-12 text-center mb-2 mt-2">Our Products</h3>
     <p class="col-md-7 mx-auto mt-3 mb-4">
-      Welcome to GitanShu Impex, your trusted exporter of the finest quality
-      DF Pens. With 20 years of specialization, we take pride in delivering
-      the best-in-class, use-and-throw pens. Our pens are known for their
-      exceptional performance, reliability, and unmatched writing experience.
-      Experience excellence with GitanShu Impex's DF Pens.
+      Welcome to GITANSHU IMPEX PRIVATE LIMITED , your trusted exporter of the finest quality DF Pens. With years of
+      experience, we take pride in delivering the best-in-class use-&-throw pens. Also we export Ball Pens and refills.
+      We supply complete set of Geometry Boxes to our overseas buyers.
     </p>
   </div>
 
   <!--This is the product showcase section-->
-  <div class="row product-showcase">
+  <div class="row product-showcase" id="products">
+    <div>
+      <h1 class="text-center mb-4">Precision in Every Stroke: Alanzer Pens</h1>
+    </div>
     <nav class="col-md-11 mx-auto">
       <div class="nav nav-tabs d-flex justify-content-around" id="nav-tab" role="tablist">
-        <button class="nav-link active rounded-0" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-colt"
-          type="button" role="tab" aria-controls="nav-home" aria-selected="true">
-          <h6>Alanzer Colt</h6>
-        </button>
-        <button class="nav-link rounded-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-star"
-          type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+        <button class="nav-link active rounded-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-star"
+          type="button" role="tab" aria-controls="nav-profile" aria-selected="true">
           <h6>Alanzer Star</h6>
         </button>
         <button class="nav-link rounded-0" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-line"
           type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
           <h6>Alanzer Line</h6>
+        </button>
+        <button class="nav-link rounded-0" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-laxy"
+          type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+          <h6>Alanzer Laxy</h6>
+        </button>
+        <button class="nav-link rounded-0" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-zen"
+          type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+          <h6>Alanzer Zen</h6>
         </button>
         <button class="nav-link rounded-0" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-kore"
           type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
@@ -110,19 +115,8 @@
     </nav>
     <hr class="mt-3" />
     <div class="row tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active text-center" id="nav-colt" role="tabpanel" aria-labelledby="nav-home-tab">
-        <div class="mb-md-4 mb-2">
-          <img class="img-size img-fluid rounded" src="./images/colt/IMG-20230715-WA0014.jpg" />
-          <img class="img-size img-fluid rounded" src="./images/colt/IMG-20230715-WA0015.jpg" />
-          <img class="img-size img-fluid rounded" src="./images/colt/IMG-20230715-WA0016.jpg" />
-        </div>
-        <div class="">
-          <img class="img-size img-fluid rounded" src="./images/colt/IMG-20230715-WA0017.jpg" />
-          <img class="img-size img-fluid rounded" src="./images/colt/IMG-20230715-WA0018.jpg" />
-          <img class="img-size img-fluid rounded" src="./images/colt/IMG-20230715-WA0013.jpg" />
-        </div>
-      </div>
-      <div class="tab-pane fade text-center" id="nav-star" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <div class="tab-pane fade show active text-center" id="nav-star" role="tabpanel"
+        aria-labelledby="nav-profile-tab">
         <div class="mb-md-4 mb-2">
           <img class="img-size img-fluid rounded" src="./images/star/IMG-20230715-WA0020.jpg" />
           <img class="img-size img-fluid rounded" src="./images/star/IMG-20230715-WA0021.jpg" />
@@ -145,6 +139,30 @@
           <img class="img-size img-fluid rounded" src="./images/line/IMG-20230716-WA0012.jpg" />
         </div>
       </div>
+      <div class="tab-pane fade text-center" id="nav-laxy" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <div class="mb-md-4 mb-2">
+          <img class="img-size img-fluid rounded" src="./images/laxy/IMG-20230721-WA0011.jpg" />
+          <img class="img-size img-fluid rounded" src="./images/laxy/IMG-20230721-WA0012.jpg" />
+          <img class="img-size img-fluid rounded" src="./images/laxy/IMG-20230721-WA0013.jpg" />
+        </div>
+        <div class="">
+          <img class="img-size img-fluid rounded" src="./images/laxy/IMG-20230721-WA0014.jpg" />
+          <img class="img-size img-fluid rounded" src="./images/laxy/IMG-20230721-WA0015.jpg" />
+          <img class="img-size img-fluid rounded" src="./images/laxy/IMG-20230721-WA0016.jpg" />
+        </div>
+      </div>
+      <div class="tab-pane fade text-center" id="nav-zen" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <div class="mb-md-4 mb-2">
+          <img class="img-size img-fluid rounded" src="./images/zen/IMG-20230715-WA0005.jpg" />
+          <img class="img-size img-fluid rounded" src="./images/zen/IMG-20230715-WA0006.jpg" />
+          <img class="img-size img-fluid rounded" src="./images/zen/IMG-20230715-WA0007.jpg" />
+        </div>
+        <div class="">
+          <img class="img-size img-fluid rounded" src="./images/zen/IMG-20230715-WA0008.jpg" />
+          <img class="img-size img-fluid rounded" src="./images/zen/IMG-20230715-WA0010.jpg" />
+          <img class="img-size img-fluid rounded" src="./images/zen/IMG-20230715-WA0011.jpg" />
+        </div>
+      </div>
       <div class="tab-pane fade text-center" id="nav-kore" role="tabpanel" aria-labelledby="nav-contact-tab">
         <div class="mb-md-4 mb-2">
           <img class="img-size img-fluid rounded" src="./images/kore/IMG-20230716-WA0002.jpg" />
@@ -161,7 +179,7 @@
   </div>
 
   <!--About Us content-->
-  <div>
+  <div id="aboutus">
     <div class="row our-products mt-5 mb-4">
       <h3 class="col-12 text-center mb-2 mt-4">About GitanShu Impex</h3>
       <p class="col-md-7 mx-auto mt-3 mb-3 mb-5">
@@ -173,10 +191,35 @@
       </p>
     </div>
 
-    <footer>
-      <div style="height: 20vh; background-color: #2b1b7b;"></div>
+    <footer class="row footer" id="footer">
+      <div class="col-md-3 text-center">
+        <img class="footer-logo" src="./images/GIPL.png">
+      </div>
+      <div class="col-md-3 mt-3 p-md-3 p-1">
+        <h4 class="mb-4">Contact</h4>
+        <div class="row">
+          <img class="col-4 footer-svg" src="./images/call.svg">
+          <h6 class="col-7 footer-text mt-3 mb-3">+91 83359 69429</h6>
+        </div>
+        <div class="row">
+          <img class="col-4 footer-svg" src="./images/mail.svg">
+          <h6 class="col-7 footer-text mt-3 mb-3">gitanshuimpex@gmail.com</h6>
+        </div>
+        <div class="row">
+          <img class="col-4 footer-svg" src="./images/address.svg">
+          <h6 class="col-8 footer-text mt-3 mb-3">276A, Roy Bahadur Road, Kolkata - 34, West Bengal, India</h6>
+        </div>
+      </div>
+      <div class="col-md-5 text-center mt-3 mb-4">
+        <iframe class="footer-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.1396996902936!2d88.33003857972032!3d22.49894118294353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0271b2e1c3ceef%3A0xdf60f1c7d89cace2!2s276%2FA%2C%20Roy%20Bahadur%20Rd%2C%20Ghol%20Para%20Basti%2C%20Behala%2C%20Kolkata%2C%20West%20Bengal%20700053!5e0!3m2!1sen!2sin!4v1690293509527!5m2!1sen!2sin"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
     </footer>
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>

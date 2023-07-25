@@ -3,6 +3,20 @@
   src: url("../fonts/Marsek-Demi.ttf");
 }
 
+h1, h2, h3, h4, h5, h6, p{
+  font-family: "Roboto";
+  opacity: 0.97;
+}
+
+.navbar-logo-GIPL{
+  height: 5rem;
+  width: 5rem;
+}
+
+.navbar-logo-make{
+  width: 7rem;
+}
+
 .container {
   max-width: 2160px;
   padding: 0;
@@ -14,6 +28,16 @@
 
 .navbar-toggler-icon {
   border-color: white;
+  width: 1.4rem;  
+}
+
+.navbar-toggler{
+  padding: 0.08rem 0.3rem !important;
+}
+
+.nav-link{
+  color: white;
+  opacity: 0.98;
 }
 
 .bg-red {
@@ -63,6 +87,12 @@
 
 }
 
+.product-showcase h1{
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #2b1b7b;
+}
+
 .tab-content img{
   margin: 0 1.5rem;
 }
@@ -73,8 +103,48 @@
   object-fit: cover;
 }
 
+footer{
+  padding: 3rem 0 2rem 0;
+  background-color: #2b1b7b;
+}
+
+.footer h4, h5{
+  color: white;
+}
+
+.footer-svg{
+  width: 1.8rem;
+  height: auto;
+  opacity: 1;
+  padding: 0;
+}
+
+.footer-text{
+  color: white;
+  opacity: .87;
+}
+
+.footer-logo{
+  width: 15rem;
+  height: auto;
+}
+
+.footer-map{
+  width: 35rem;
+  height: 15rem;
+}
+
 
 @media only screen and (max-width: 769px) {
+
+  .navbar-logo-make{
+  width: 6rem;
+}
+
+  .bottom a{
+    padding: 0.5rem 0;
+  }
+
   .carousel-inner img {
     width: 100% !important;
     height: 40vh !important;
@@ -91,4 +161,10 @@
   .bottom a{
     margin: 0.2rem 0 0 0;
   }
+
+  .footer-map{
+    width: 20rem;
+    height: 15rem;
+  }
+
 }
