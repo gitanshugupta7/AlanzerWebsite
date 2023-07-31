@@ -3,17 +3,23 @@
   src: url("../fonts/Marsek-Demi.ttf");
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-family: "Roboto";
   opacity: 0.97;
 }
 
-.navbar-logo-GIPL{
+.navbar-logo-GIPL {
   height: 5rem;
   width: 5rem;
 }
 
-.navbar-logo-make{
+.navbar-logo-make {
   width: 7rem;
 }
 
@@ -22,20 +28,32 @@ h1, h2, h3, h4, h5, h6, p{
   padding: 0;
 }
 
-.row{
+.row {
   margin: auto;
+}
+
+#carousel1d {
+  background-image: url("../images/carousel/AlanzerCarousel.png");
+  object-fit: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#carousel1m {
+  display: none !important;
 }
 
 .navbar-toggler-icon {
   border-color: white;
-  width: 1.4rem;  
+  width: 1.4rem;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   padding: 0.08rem 0.3rem !important;
 }
 
-.nav-link{
+.nav-link {
   color: white;
   opacity: 0.98;
 }
@@ -57,7 +75,7 @@ h1, h2, h3, h4, h5, h6, p{
   margin: 0 2rem;
 }
 
-.carousel-inner{
+.carousel-inner {
   padding: 0;
 }
 
@@ -66,70 +84,71 @@ h1, h2, h3, h4, h5, h6, p{
   height: 80vh !important;
 }
 
-.our-products h3{
+.our-products h3 {
   font-family: 'Roboto';
   color: #2b1b7b;
   font-weight: bold;
 }
 
-.our-products p{
+.our-products p {
   text-align: center;
 }
 
-.nav-tabs{
+.nav-tabs {
   background-color: #2b1b7b;
 }
 
-.product-showcase h4{
+.product-showcase h4 {
   font-family: 'Roboto';
   font-weight: bold;
   color: white;
 
 }
 
-.product-showcase h1{
+.product-showcase h1 {
   font-family: 'Roboto';
   font-weight: bold;
   color: #2b1b7b;
 }
 
-.tab-content img{
+.tab-content img {
   margin: 0 1.5rem;
 }
 
-.img-size{
+.img-size {
   width: 25rem;
   height: 18rem;
   object-fit: cover;
 }
 
-footer{
+footer {
   padding: 3rem 0 2rem 0;
   background-color: #2b1b7b;
 }
 
-.footer h4, h5{
+.footer h4,
+h5 {
   color: white;
 }
 
-.footer-svg{
+.footer-svg {
   width: 1.8rem;
   height: auto;
   opacity: 1;
   padding: 0;
 }
 
-.footer-text{
+.footer-text {
   color: white;
   opacity: .87;
 }
 
-.footer-logo{
+.footer-logo {
   width: 15rem;
   height: auto;
 }
 
-.footer-map{
+.footer-map {
   width: 35rem;
   height: 15rem;
 }
@@ -137,11 +156,25 @@ footer{
 
 @media only screen and (max-width: 769px) {
 
-  .navbar-logo-make{
-  width: 6rem;
-}
+  .navbar-logo-make {
+    width: 6rem;
+  }
 
-  .bottom a{
+  #carousel1d{
+    display: none !important;
+  }
+
+  #carousel1m {
+    display: block !important;
+    object-fit: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70% !important;
+    width: auto;
+  }
+
+  .bottom a {
     padding: 0.5rem 0;
   }
 
@@ -150,20 +183,20 @@ footer{
     height: 40vh !important;
   }
 
-  .tab-content img{
+  .tab-content img {
     margin: 0 0 1rem 0;
   }
 
-  .scroll{
+  .scroll {
     overflow-x: auto !important;
   }
 
-  .bottom a{
+  .bottom a {
     margin: 0.2rem 0 0 0;
   }
 
-  .footer-map{
-    width: 20rem;
+  .footer-map {
+    width: auto;
     height: 15rem;
   }
 
