@@ -11,13 +11,14 @@ h5,
 h6,
 p {
   font-family: "Roboto";
-  opacity: 0.87;
+  opacity: 0.97;
 }
 
 p{
   font-size: 1.2rem;
   font-weight: 400;
-  color: black;
+  color: #1F0802;
+  opacity: 0.85;
 }
 
 .navbar-logo-GIPL {
