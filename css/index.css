@@ -11,7 +11,13 @@ h5,
 h6,
 p {
   font-family: "Roboto";
-  opacity: 0.97;
+  opacity: 0.87;
+}
+
+p{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: black;
 }
 
 .navbar-logo-GIPL {
@@ -153,6 +159,13 @@ h5 {
 
 
 @media only screen and (max-width: 769px) {
+
+  p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+  }
+  
 
   .navbar-logo-make {
     width: 6rem;
