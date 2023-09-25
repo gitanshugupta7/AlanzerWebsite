@@ -33,7 +33,7 @@ p {
 }
 
 #carousel1d {
-  object-fit: fill  ;
+  object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
